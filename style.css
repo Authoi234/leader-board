@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.nav-bg{
+    background-color: #562eff;
+}
+.container{
+    margin: 0 18%;
+}
+.s-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.img-width{
+    width: 8%;
+    padding: 20px 0 8px 0;
+    margin-right: 10px;
+}
+.nav-h1-style{
+    font-size: 30px;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.nav-item ul li{
+    list-style-type: none;
+    color: white;
+    margin-right: 20px;
+}
+.header-bg{
+    background-color: #f3f1ff;
+    padding: 29px 0;
+}
+.header-bg-p{
+    background-color: white;
+    padding: 25px 23px;
+}
+.players-h1-style{
+    font-size: 25px;
+    color: #562eff;
+    margin-bottom: 25px;
+}
+.card-img-width{
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+.display-f{
+    display: flex;
+}
+.d-f{
+    display: flex;
+    text-align: center;
+    transition: 0.3s;
+}
+.d-f:hover{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.h3-pad{
+    padding-left: 20px;
+    margin-top: 55px;
+}
+.div-width{
+    width: 23%;
+}
+.display-f-das{
+    display: flex;
+    position: relative;
+    margin-bottom: 35px;
+}
+.display-f-das::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #808080;
+    position: absolute;
+    left: 0%;
+    bottom: 0px;
+    top: 118%;
+}
+/* blog style */
+.blog-img-width{
+    width: 100%;
+}
+.blog-img-div{
+    width: 37%;
+    margin-bottom: 25px;
+}
+.blog-img-div-2{
+    width: 36%;
+    padding-left: 41px;
+}
+.header-h2-style{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.By-color{
+    color: gray;
+    font-weight: 700;
+}
+.span-color{
+    color: rgb(77, 77, 226);
+}
+.h2-padding{
+    margin-left: 181px;
+}
+.h2-style{
+    font-size: 23px;
+}
+.blog-img-div1{
+    width: 45%;
+}
